@@ -23,6 +23,11 @@ function main () {
 
 const root = document.getElementById("root");
 
+const title = document.createElement("h1");
+title.innerText = "FREELANCERS";
+
+root.appendChild(title);
+
 
 
 }
