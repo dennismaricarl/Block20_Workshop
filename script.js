@@ -24,9 +24,21 @@ function main () {
 const root = document.getElementById("root");
 
 const title = document.createElement("h1");
+
 title.innerText = "FREELANCERS";
 
 root.appendChild(title);
+
+const list = document.createElement("ul");
+
+root.appendChild(list);
+
+for (const user of users) {
+    const names = document.createElement("li");
+    const userText = `name: "${user.name}", age: ${user.age}, occupation: "${user.occupation}"`;
+    names.innerText = userText
+    list.appendChild(names) 
+}
 
 
 
