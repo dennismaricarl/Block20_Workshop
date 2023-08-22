@@ -1,0 +1,23 @@
+.title {
+    color: green;
+    font-family: Tahoma;
+}
+
+.list {
+    list-style: none;
+    padding: none
+}
+
+li {
+    color: rgb(2, 2, 2);
+    word-spacing: 3px;
+    font: 18px monospace;
+    line-height: 1.5;
+    border: 2px solid rgb(39, 169, 58);
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 5px;
+
+}
+
+
