@@ -1,11 +1,13 @@
 .title {
-    color: green;
-    font-family: Tahoma;
+    color: black;
+    font: bold 40px Times;
+    padding-left: 30px;
 }
 
 .list {
     list-style: none;
-    padding: none
+    padding: 10px 40px;
+
 }
 
 li {
