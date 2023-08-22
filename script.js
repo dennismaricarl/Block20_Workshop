@@ -8,3 +8,25 @@ const users = [
     { name: "Adam", age: 47, occupation: "teacher" },
     { name: "Robert", age: 72, occupation: "driver" },
 ];
+
+// Inside your main() function, grab the "root" element, 
+// add an h1 element, give it text of "FREELANCERS", 
+// and append the HTML document.
+// // Continue working inside your main() function 
+// to create an unordered list element.
+// Loop through the users array cr`eating li elements. 
+// Append those elements to your HTML document.
+// Style your site using CSS.
+
+
+function main () {
+
+const root = document.getElementById("root");
+
+
+
+}
+
+
+//call the main function
+main();
